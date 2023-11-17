@@ -2,10 +2,10 @@
 After=network.target nss-lookup.target
 [Service]
 User=root
-WorkingDirectory=/root/duman
+WorkingDirectory=/root/tuic-plus
 CapabilityBoundingSet=CAP_NET_ADMIN CAP_NET_BIND_SERVICE CAP_NET_RAW
 AmbientCapabilities=CAP_NET_ADMIN CAP_NET_BIND_SERVICE CAP_NET_RAW
-ExecStart=/root/duman/duman run -c /root/duman/config.json
+ExecStart=/root/tuic-plus/tuic-plus run -c /root/tuic-plus/config.json
 ExecReload=/bin/kill -HUP $MAINPID
 Restart=on-failure
 RestartSec=10
