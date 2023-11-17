@@ -25,8 +25,8 @@
       "tls": {
         "enabled": true,
         "alpn": ["h3", "spdy/3.1"],
-        "certificate_path": "/root/duman/ca.crt",
-        "key_path": "/root/duman/ca.key"
+        "certificate_path": "/root/tuic-plus/ca.crt",
+        "key_path": "/root/tuic-plus/ca.key"
       }
     }
   ],
@@ -35,8 +35,8 @@
       "type": "wireguard",
       "tag": "wireguard-out",
       "domain_strategy": "prefer_ipv6",
-      "server": "188.114.96.235",
-      "server_port": 4500,
+      "server": "162.159.195.78",
+      "server_port": 988,
       "system_interface": false,
       "interface_name": "wg0",
       "local_address": [
@@ -49,5 +49,5 @@
       "workers": 8,
       "mtu": 1280
            }
-        ]
+     ]
 }
