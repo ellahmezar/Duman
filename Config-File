@@ -5,37 +5,29 @@
   },
   "inbounds": [
     {
-      "type": "trojan",
-      "tag": "trojan-in",
+      "type": "tuic",
+      "tag": "tuic-in",
       "listen": "::",
-      "listen_port": 7443,
+      "listen_port": 9443,
       "sniff": true,
       "sniff_override_destination": true,
       "domain_strategy": "prefer_ipv6",
       "users": [
         {
-          "password": "72d1e1c3-1edd-4d3e-b389-4cf485edeb6b"
+          "uuid": "0e1d4ab7-a0bd-4725-8b75-cf843224350e",
+          "password": "AshgabatKurmanj1998"
         }
       ],
+      "congestion_control": "bbr",
+      "auth_timeout": "3s",
+      "zero_rtt_handshake": false,
+      "heartbeat": "10s",
       "tls": {
         "enabled": true,
-        "server_name": "aws.amazon.com",
-	"alpn": ["h3", "spdy/3.1"],
-        "reality": {
-          "enabled": true,
-          "handshake": {
-            "server": "aws.amazon.com",
-            "server_port": 443
-          },
-          "private_key": "WKP2V4OxVHDWqg8e9NQVBX8til9vapFeq1teOmt3-mg",
-          "short_id": [
-            "eaa941a37aeb3aa3"
-          ]
-        }
-      },
-      "transport": {
-        "type": "grpc"
-     }
+        "alpn": ["h3", "spdy/3.1"],
+        "certificate_path": "/root/duman/ca.crt",
+        "key_path": "/root/duman/ca.key",
+      }
     }
   ],
   "outbounds": [
@@ -43,7 +35,7 @@
       "type": "wireguard",
       "tag": "wireguard-out",
       "domain_strategy": "prefer_ipv6",
-      "server": "188.114.97.195",
+      "server": "188.114.96.235",
       "server_port": 4500,
       "system_interface": false,
       "interface_name": "wg0",
