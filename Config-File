@@ -27,9 +27,6 @@
         "alpn": ["h3", "spdy/3.1"],
         "certificate_path": "/root/tuic-plus/ca.crt",
         "key_path": "/root/tuic-plus/ca.key"
-      },
-      "transport": {
-        "type": "quic"
       }
     }
   ],
