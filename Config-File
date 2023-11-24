@@ -15,8 +15,8 @@
       "domain_strategy": "prefer_ipv6",
       "users": [
         {
-          "uuid": "0e1d4ab7-a0bd-4725-8b75-cf843224350e",
-          "password": "AshgabatKurmanj1998"
+          "uuid": "44b6046e-7972-460f-922a-18613be2d45c",
+          "password": "8pdwLppJvy+6HicULsqYfhyLagVYkOHoeoe+ptRzzzc="
         }
       ],
       "congestion_control": "bbr",
