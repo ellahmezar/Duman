@@ -28,8 +28,8 @@
           "h3",
           "spdy/3.1"
         ],
-        "certificate_path": "/root/tuic-plus/ca.crt",
-        "key_path": "/root/tuic-plus/ca.key"
+        "certificate_path": "/root/tuic-warp/ca.crt",
+        "key_path": "/root/tuic-warp/ca.key"
       }
     }
   ],
