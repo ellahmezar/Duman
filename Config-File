@@ -50,8 +50,7 @@
       "pre_shared_key": "",
       "reserved": "WlxH",
       "workers": 8,
-      "mtu": 1280,
-      "network": "udp"
+      "mtu": 1280
            }
      ]
 }
