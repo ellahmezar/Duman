@@ -47,6 +47,7 @@
       ],
       "private_key": "aNtg/ztE4dsOkIbLpAGqZV/layUot6CbrI+8352lkWU=",
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "pre_shared_key": "",
       "reserved": "WlxH",
       "workers": 8,
       "mtu": 1280
