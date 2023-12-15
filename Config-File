@@ -42,12 +42,12 @@
       "interface_name": "wg0",
       "local_address": [
         "172.16.0.2/32",
-        "2606:4700:110:80e6:f05c:f4d7:e62:191/128"
+        "2606:4700:110:80d1:3171:1aec:c451:36f5/128"
       ],
-      "private_key": "ANarEmq28gL66We7IKxVCUC/sYtrzZO3sKkxsYqqP3s=",
+      "private_key": "oO4At57Ed6QB0Yl+hEpjOoEIOVZYenvBgucHi2r3YGE=",
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "pre_shared_key": "",
-      "reserved": "d5t+",
+      "reserved": "eaP4",
       "workers": 8,
       "mtu": 1280
            }
