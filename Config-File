@@ -24,9 +24,7 @@
       "heartbeat": "10s",
       "tls": {
         "enabled": true,
-        "alpn": [
-          "h3"
-        ],
+        "alpn": ["h3"],
         "certificate_path": "/root/warp/ca.crt",
         "key_path": "/root/warp/ca.key"
       }
