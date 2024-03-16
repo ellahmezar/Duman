@@ -8,9 +8,11 @@
       "type": "tuic",
       "tag": "tuic-in",
       "listen": "::",
-      "listen_port": 9443,
+      "listen_port": 4443,
+      "udp_timeout": "1m",
       "sniff": true,
-      "sniff_override_destination": true,
+      "sniff_override_destination": false,
+      "sniff_timeout": "300ms",
       "domain_strategy": "prefer_ipv6",
       "users": [
         {
@@ -34,18 +36,18 @@
     {
       "type": "wireguard",
       "tag": "wireguard-out",
-      "server": "162.159.193.10",
+      "server": "engage.cloudflareclient.com",
       "server_port": 2408,
       "system_interface": false,
       "interface_name": "wg0",
       "local_address": [
         "172.16.0.2/32",
-        "2606:4700:110:80d1:3171:1aec:c451:36f5/128"
+        "2606:4700:110:8f59:f666:57cd:d698:2dc5/128"
       ],
-      "private_key": "oO4At57Ed6QB0Yl+hEpjOoEIOVZYenvBgucHi2r3YGE=",
+      "private_key": "WNAZEsvTx8E6PcIzivIjnUIheTglRV7IFzHgS84Ep1c=",
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "pre_shared_key": "",
-      "reserved": "eaP4",
+      "reserved": "WTvs",
       "workers": 8,
       "mtu": 1280
            }
