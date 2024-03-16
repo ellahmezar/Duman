@@ -27,8 +27,8 @@
       "tls": {
         "enabled": true,
         "alpn": ["h3"],
-        "certificate_path": "/root/warp/ca.crt",
-        "key_path": "/root/warp/ca.key"
+        "certificate_path": "/root/Warp/ca.crt",
+        "key_path": "/root/Warp/ca.key"
       }
     }
   ],
