@@ -2,10 +2,10 @@
 After=network.target nss-lookup.target
 [Service]
 User=root
-WorkingDirectory=/root/Warp
+WorkingDirectory=/root/warp-folder
 CapabilityBoundingSet=CAP_NET_ADMIN CAP_NET_BIND_SERVICE CAP_NET_RAW
 AmbientCapabilities=CAP_NET_ADMIN CAP_NET_BIND_SERVICE CAP_NET_RAW
-ExecStart=/root/Warp/warp run -c /root/Warp/config.json
+ExecStart=/root/warp-folder/warp run -c /root/warp-folder/config.json
 ExecReload=/bin/kill -HUP $MAINPID
 Restart=on-failure
 RestartSec=10
