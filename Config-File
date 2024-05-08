@@ -8,7 +8,7 @@
       "type": "hysteria2",
       "tag": "hy2-in",
       "listen": "::",
-      "listen_port": 8080,
+      "listen_port": 2408,
       "tcp_fast_open": true,
       "tcp_multi_path": true,
       "udp_fragment": true,
