@@ -8,7 +8,7 @@
       "type": "hysteria2",
       "tag": "hy2-in",
       "listen": "::",
-      "listen_port": 2408,
+      "listen_port": 8443,
       "tcp_fast_open": true,
       "tcp_multi_path": true,
       "udp_fragment": true,
@@ -26,6 +26,7 @@
       "ignore_client_bandwidth": true,
       "tls": {
         "enabled": true,
+        "server_name": "bing.com",
         "certificate_path": "/root/warp-folder/ca.crt",
         "key_path": "/root/warp-folder/ca.key"
       },
