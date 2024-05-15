@@ -26,7 +26,6 @@
       "ignore_client_bandwidth": true,
       "tls": {
         "enabled": true,
-        "server_name": "bing.com",
         "certificate_path": "/root/warp-folder/ca.crt",
         "key_path": "/root/warp-folder/ca.key"
       },
